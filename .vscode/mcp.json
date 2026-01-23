@@ -1,16 +1,22 @@
 {
   // For more information, visit: https://angular.dev/ai/mcp
-  /*"servers": {
+  "servers": {
     "angular-cli": {
       "command": "npx",
       "args": ["-y", "@angular/cli", "mcp"]
     },
-    "ag-mcp": {
+  "ag-mcp": {
     "command": "npx",
     "args": [
       "ag-mcp"
     ],
     "type": "stdio"
+  },
+  "playwright": {
+      "command": "npx",
+      "args": [
+        "@playwright/mcp@latest"
+      ]
+    }
   }
-  }*/
 }
